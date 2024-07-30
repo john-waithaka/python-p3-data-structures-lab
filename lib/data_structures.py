@@ -57,9 +57,6 @@ def get_spicy_food_by_cuisine(spicy_foods, cuisine):
         if food["cuisine"] == cuisine:
             return food
 
-# def sort_by_heat(spicy_foods):
-#     return sorted(spicy_foods, key=lambda h: h['heat_level'])
-
 def print_spiciest_foods(spicy_foods):
     spiciest_foods = get_spiciest_foods(spicy_foods)
     print_spicy_foods(spiciest_foods)
